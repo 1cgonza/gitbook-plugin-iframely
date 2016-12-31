@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-iframely",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Get any video or iframe card supported by https://iframely.com. (Vimeo, YouTube, Facebook, Twitter, Instagram, etc)",
   "main": "index.js",
   "engines": {
@@ -22,9 +22,16 @@
     }
   },
   "keywords": [
-    "gitbook", "gitbook-plugin", "videos",
-    "oembed", "iframe", "iframely", "vimeo",
-    "youtube", "instagram", "facebook"
+    "gitbook",
+    "gitbook-plugin",
+    "videos",
+    "oembed",
+    "iframe",
+    "iframely",
+    "vimeo",
+    "youtube",
+    "instagram",
+    "facebook"
   ],
   "dependencies": {
     "md5": "^2.2.1"
