@@ -28,7 +28,7 @@ Once you have the key, add it to your `book.json`.
 ```
 
 ## Usage
-- You can use two filter calls `iframely` or `video`. *(At the moment they both do exactly the same)*
+- You can use two filters: `iframely` or `video`. *(At the moment they both do exactly the same)*
 - Make sure you wrap your URL around single or double quotes.
 
 ```md
