@@ -2,7 +2,7 @@ const md5 = require('md5');
 
 function iframely(url) {
   var config = this.config.get('pluginsConfig.iframely');
-  var endpoint = 'http://iframe.ly/api/oembed?';
+  var endpoint = '//iframe.ly/api/oembed?';
 
   if (config.hasOwnProperty('apiKey') && config.apiKey.length && url.length) {
     endpoint += 'key=' + md5(config.apiKey.trim());
