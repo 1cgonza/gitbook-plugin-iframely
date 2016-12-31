@@ -21,6 +21,11 @@
       }
     }
   },
+  "keywords": [
+    "gitbook", "gitbook-plugin", "videos",
+    "oembed", "iframe", "iframely", "vimeo",
+    "youtube", "instagram", "facebook"
+  ],
   "dependencies": {
     "md5": "^2.2.1"
   }
