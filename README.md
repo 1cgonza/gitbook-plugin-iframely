@@ -11,7 +11,7 @@ Add "iframely" to your plugins in `book.json`.
 }
 ```
 
-## API Key (Requiered)
+## API Key (Required)
 You need an API key from [iframely](https://iframely.com) (FREE or paid).
 The free one can get you started and should work for most cases.
 
