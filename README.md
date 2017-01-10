@@ -2,6 +2,8 @@
 
 Get any video or iframe card supported by [iframely](https://iframely.com). (Vimeo, YouTube, Facebook, Twitter, Instagram, etc)
 
+*If you prefer an option without the need for an API key or depending on creating an account, you can try [gitbook-plugin-noembed](https://github.com/1cgonza/gitbook-plugin-noembed). It has less supported sites than iframely but still has all the popular ones and more.*
+
 ## Installation
 Add "iframely" to your plugins in `book.json`.
 
