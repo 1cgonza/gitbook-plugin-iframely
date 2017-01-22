@@ -1,4 +1,4 @@
-(function() {
+function renderIframely(event) {
   var iframes         = document.querySelectorAll('.iframely-wrapper');
   var loaded          = 0;
   var total           = iframes.length;
@@ -75,4 +75,8 @@
 
     getVideoData(url, wrapper);
   }
-})();
+}
+
+require(['gitbook'], function(gitbook) {
+  gitbook.events.on('page.change', renderIframely);
+});
