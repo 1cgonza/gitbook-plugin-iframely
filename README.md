@@ -17,16 +17,12 @@ Add "iframely" to your plugins in `book.json`.
 You need an API key from [iframely](https://iframely.com) (FREE or paid).
 The free one can get you started and should work for most cases.
 
-Once you have the key, add it to your `book.json`.
+Once you have the key, add it to your `environment variable` when executing gitbook-cli.
 
-```js
-{
-  "pluginsConfig": {
-    "iframely": {
-      "apiKey": "YOUR_API_KEY"
-    }
-  }
-}
+```sh
+> IFRAMELY_APIKEY=YOUR_IFRAMELY_APIKEY gitbook build
+# or
+> IFRAMELY_APIKEY=YOUR_IFRAMELY_APIKEY gitbook serve
 ```
 
 ## Usage
