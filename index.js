@@ -6,6 +6,10 @@ function iframely(url) {
 
   if (process.env.IFRAMELY_APIKEY) {
     endpoint += 'key=' + md5(process.env.IFRAMELY_APIKEY);
+  } else if (config.hasOwnProperty('apiKey') && config.apiKey.length && url.length) {
+    endpoint += 'key=' + md5(config.apiKey.trim());
+  }
+  if endpoint.includes("key=") {
     endpoint += '&url=' + url.trim();
 
     return '<div class="iframely-wrapper" data-url="' +
