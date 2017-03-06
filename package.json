@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-iframely",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Get any video or iframe card supported by https://iframely.com. (Vimeo, YouTube, Facebook, Twitter, Instagram, etc)",
   "main": "index.js",
   "engines": {
