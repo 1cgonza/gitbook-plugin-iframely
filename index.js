@@ -9,7 +9,7 @@ function iframely(url) {
   } else if (config.hasOwnProperty('apiKey') && config.apiKey.length && url.length) {
     endpoint += 'key=' + md5(config.apiKey.trim());
   }
-  if (endpoint.includes("key=")) {
+  if (endpoint.includes('key=')) {
     endpoint += '&url=' + url.trim();
 
     return '<div class="iframely-wrapper" data-url="' +
